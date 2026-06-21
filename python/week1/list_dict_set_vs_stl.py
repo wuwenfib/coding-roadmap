@@ -74,7 +74,7 @@ def demo_dict():
     for name, a in age.items():
         print(f"  {name}: {a}")
 
-    print("keys:", list(age.keys()))
+    print("keys:", age.keys())
     print("values:", list(age.values()))
     print("'Alice' in age?", "Alice" in age)  # 查 key，count()>0
 
